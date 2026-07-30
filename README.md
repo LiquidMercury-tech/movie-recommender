@@ -1,40 +1,40 @@
-\# Movie Recommender System
+# Movie Recommender System
 
 
 
-\&gt; \*\*Status:\*\* Work in progress. This is my first data science project — 
+&gt; \*\*Status:\*\* Work in progress. This is my first data science project — 
 
-\&gt; I'm actively improving it based on feedback. 
-
-
-
-\## Current Approach
-
-\- Content-based filtering using CountVectorizer + cosine similarity
-
-\- Dataset: TMDB 10,000 movies
-
-\- Simple genre + overview text matching
+&gt; I'm actively improving it based on feedback. 
 
 
 
-\## Known Limitations (I'm Fixing These)
+## Current Approach
+
+- Content-based filtering using CountVectorizer + cosine similarity
+
+- Dataset: TMDB 10,000 movies
+
+- Simple genre + overview text matching
 
 
 
-\- \[ ] Using CountVectorizer instead of TF-IDF
-
-\- \[ ] No evaluation metrics (precision@k, etc.)
-
-\- \[ ] No API — notebook-only
-
-\- \[ ] No fuzzy title matching
-
-\- \[ ] Missing data not handled gracefully
+## Known Limitations (I'm Fixing These)
 
 
 
-\## Quick Start
+- \[ ] Using CountVectorizer instead of TF-IDF
+
+- \[ ] No evaluation metrics (precision@k, etc.)
+
+- \[ ] No API — notebook-only
+
+- \[ ] No fuzzy title matching
+
+- \[ ] Missing data not handled gracefully
+
+
+
+## Quick Start
 
 ```bash
 
