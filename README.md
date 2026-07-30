@@ -2,9 +2,11 @@
 
 
 
-&gt; \*\*Status:\*\* Work in progress. This is my first data science project — 
+&gt;
+**Status:** Work in progress. This is my first data science project — 
 
-&gt; I'm actively improving it based on feedback. 
+&gt; 
+I'm actively improving it based on feedback. 
 
 
 
@@ -22,15 +24,15 @@
 
 
 
-- \[ ] Using CountVectorizer instead of TF-IDF
+- [ ] Using CountVectorizer instead of TF-IDF
 
-- \[ ] No evaluation metrics (precision@k, etc.)
+- [ ] No evaluation metrics (precision@k, etc.)
 
-- \[ ] No API — notebook-only
+- [ ] No API — notebook-only
 
-- \[ ] No fuzzy title matching
+- [ ] No fuzzy title matching
 
-- \[ ] Missing data not handled gracefully
+- [ ] Missing data not handled gracefully
 
 
 
@@ -40,5 +42,5 @@
 
 pip install -r requirements.txt
 
-jupyter notebook notebooks/01\_initial\_exploration.ipynb
+jupyter notebook notebooks/01_initial_exploration.ipynb
 
